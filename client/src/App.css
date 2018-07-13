@@ -2,18 +2,16 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
   
-  height: 150px;
+  height: 120px;
   padding: 20px;
   color: white;
   background-color:#664855;
-  opacity:.8;
+  opacity:.9;
+  font-size: 3.0em;
+  
   
 }
 
@@ -35,7 +33,7 @@ width: 150px;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2.0em;
   color:white;
 }
 
@@ -55,8 +53,8 @@ body{
   background: #f2f2f2;
   border: 2px solid #ddd;
   border-radius:5px;
-  font-family: 'Boogaloo', cursive;
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 
 }
 
@@ -91,6 +89,7 @@ body{
   border: 2px solid #ddd;
   border-radius: 5px;
   margin-top:50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3,
@@ -119,6 +118,7 @@ p {
   border-top: 8px solid #4aaaa5;
   background-color:#664855;
   position: fixed bottom;
+  opacity:.9;
   
 }
 
