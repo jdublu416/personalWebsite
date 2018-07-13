@@ -12,7 +12,26 @@
   height: 150px;
   padding: 20px;
   color: white;
+  background-color:#664855;
+  opacity:.8;
   
+}
+
+Nav ul{
+  list-style-type:none;
+  text-align: center;
+  font-weight: bold;
+}
+
+Nav a{
+  text-decoration: none;
+  padding:10px;
+}
+
+.sideNav{
+float: left;
+width: 150px;
+
 }
 
 .App-title {
@@ -33,8 +52,11 @@ body{
   max-width: 650px;
   padding: 30px;
   margin-top:50px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #f2f2f2;
+  border: 2px solid #ddd;
+  border-radius:5px;
+  font-family: 'Boogaloo', cursive;
+  font-size: 20px;
 
 }
 
@@ -65,8 +87,9 @@ body{
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #f2f2f2;
+  border: 2px solid #ddd;
+  border-radius: 5px;
   margin-top:50px;
 }
 
@@ -96,7 +119,7 @@ p {
   border-top: 8px solid #4aaaa5;
   background-color:#664855;
   position: fixed bottom;
-  margin-top: 125px;
+  
 }
 
 

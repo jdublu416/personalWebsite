@@ -1,11 +1,13 @@
 .myNav{
-    float:right;
-    background-color:#664855;
+    float:left;
+    background-color:#4aaaa5;
+    opacity:.5;
     color:white;
-    width:100%;
-    height:125px;
-    margin-left: 650px;
-    justify-content: right;
+    height: 610px;
+    padding:0;
+    margin-bottom:0;
+    width:150px;
+   
 }
 
 .navh1{
@@ -26,3 +28,8 @@ Nav a {
     color:white;
     text-decoration: none;
 }
+
+/* .navbar-brand{
+    height:100%;
+} */
+

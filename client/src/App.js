@@ -12,8 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Nav />
+        <h1 className="App-title navh1">Janet Warren</h1>
         </header>
+        <Nav className='sideNav' />
         <Container className="main-container">
           <section className="main-section">
             <h1>About Me</h1>
