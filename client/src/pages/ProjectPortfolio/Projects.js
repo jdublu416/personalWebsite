@@ -20,10 +20,11 @@ class Project extends Component {
 
   // When the component mounts, load the project collection
   componentDidMount() {
-    this.loadProjects();
+    // this.loadProjects();
   }
 
   loadProjects = () => {
+    console.log("yipppeee"),
     API.getProjects()
       .then(res =>
         this.setState({
