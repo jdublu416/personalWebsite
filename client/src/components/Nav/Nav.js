@@ -11,12 +11,12 @@ const Nav = () => (
           </a>
         </li>
         <li>
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/portfolio">
             Portfolio
           </a>
         </li>
         <li>
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/contact">
             Contact Me
           </a>
         </li>

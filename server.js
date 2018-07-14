@@ -1,8 +1,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-//const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
+const mongojs= require('mongojs');
 const PORT = process.env.PORT || 3001;
 
 // Define middleware here
@@ -17,6 +18,10 @@ app.use("/", routes);
 
 // app.use(app.router);
 // routes.initialize(app);
+
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/codingProjects");
+
 
 
 app.listen(PORT, function() {
