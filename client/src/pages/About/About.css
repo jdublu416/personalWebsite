@@ -28,7 +28,7 @@
   
   .sideNav{
   float: left;
-  width: 175px;
+  width: 2075px;
   
   }
   
@@ -56,6 +56,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     box-shadow: 10px 10px 10px gray;
+    margin-left:75px;
   
   }
   
