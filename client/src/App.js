@@ -4,6 +4,7 @@ import About from "./pages/About/About";
 import Wrapper from "./components/Wrapper";
 import Project from "./pages/ProjectPortfolio/Projects";
 import './App.css';
+import Contact from './pages/Contact/Contact';
 
 const App = () => (
   <Router>
