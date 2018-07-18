@@ -55,6 +55,7 @@ class Project extends Component {
               aSrc={portfolio.aSrc}
               github={portfolio.github}
               imageSrc={portfolio.imageSrc}
+              github={portfolio.github}
               
             />
           ))}

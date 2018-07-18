@@ -6,7 +6,7 @@
     "aSrc":"https://hubbydoo.herokuapp.com/",
     "synopsis": "",
     "imageSrc":"./images/triviagame.jpg",
-    "github": ""
+    "github": "https://github.com/jdublu416/hubby"
 },
 {
     "id":"2",
@@ -14,7 +14,8 @@
     "description": "React, MongoDB, Nodejs, Express",
     "aSrc":"https://classherokutest.herokuapp.com/",
     "synopsis": "",
-    "imageSrc":"./images/banner-nyt-building.jpg"
+    "imageSrc":"./images/banner-nyt-building.jpg",
+    "github": "https://github.com/jdublu416/hubby"
 },
 {
     "id":"3",
@@ -22,7 +23,8 @@
     "description": "React app",
     "aSrc":"https://jdublu416.github.io/clicky-game/",
     "synopsis": "",
-    "imageSrc":"./images/warnerbrothers.jpeg"
+    "imageSrc":"./images/warnerbrothers.jpeg",
+    "github": "https://github.com/jdublu416/hubby"
 },
 {
     "id":"4",

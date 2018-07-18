@@ -20,6 +20,9 @@ const Card = props => (
         <li>
           <strong>Link:</strong> <a href={props.aSrc}>Click here to visit site</a>
         </li>
+        <li>
+          <strong>Source Code:</strong> <a href={props.aSrc}>View on gitHub</a>
+        </li>
       </ul>
     </div>
   </div>
