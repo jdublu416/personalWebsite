@@ -1,0 +1,60 @@
+[
+    {
+    "id": 1,
+    "title":"hubby.",
+    "description": "React Application with MongoDB/Express/Node",
+    "aSrc":"https://hubbydoo.herokuapp.com/",
+    "synopsis": "",
+    "imageSrc":"./images/triviagame.jpg",
+    "github": ""
+},
+{
+    "id":"2",
+    "title":"New York Times Search",
+    "description": "React, MongoDB, Nodejs, Express",
+    "aSrc":"https://classherokutest.herokuapp.com/",
+    "synopsis": "",
+    "imageSrc":"./images/banner-nyt-building.jpg"
+},
+{
+    "id":"3",
+    "title":"CLicky Game",
+    "description": "React app",
+    "aSrc":"https://jdublu416.github.io/clicky-game/",
+    "synopsis": "",
+    "imageSrc":"./images/warnerbrothers.jpeg"
+},
+{
+    "id":"4",
+    "title":"MongoScraper",
+    "description": "",
+    "aSrc":"",
+    "synopsis": "",
+    "imageSrc":""
+},
+{
+    "id":"5",
+    "title":"",
+    "description": "",
+    "aSrc":"",
+    "synopsis": "",
+    "imageSrc":""
+},
+{
+    "id":"6",
+    "title":"",
+    "description": "",
+    "aSrc":"",
+    "synopsis": "",
+    "imageSrc":""
+},
+{
+    "id":"7",
+    "title":"",
+    "description": "",
+    "aSrc":"",
+    "synopsis": "",
+    "imageSrc":""
+}
+
+]

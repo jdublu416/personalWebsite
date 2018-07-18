@@ -32,10 +32,7 @@
   
   }
   
-  .App-title {
-    font-size: 2.0em;
-    color:white;
-  }
+  
   
   .App-intro {
     font-size: large;
@@ -44,10 +41,11 @@
   body{
     background-image: url("../../greyfloral.png");
   }
-  .main-section {
+  .Portfolio-main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
+    max-width: 750px;
+    line-height: 30px;
     padding: 30px;
     margin-top:50px;
     background: #f2f2f2;

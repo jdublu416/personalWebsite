@@ -1,21 +1,19 @@
 import React, { Component } from "react";
 import Nav from "../../components/Nav/Nav";
 import { Container } from "../../components/Grid/";
-import Git from "../../images/github-128.png";
-import Stack from "../../images/overflow.png";
-import LinkedIn from "../../images/linkedin.png";
+import Git from "./images/github-128.png";
+import Stack from "./images/overflow.png";
+import LinkedIn from "./images/linkedin.png";
 import API from "../../utils/API";
 import Card from "../../components/Card/Card";
+import portfolio from "./portfolio.json";
+import './portfolio.css';
 //import ProfilePic from "./images/profilepic2.jpeg";
 
 class Project extends Component {
   state = {
-    projects: [],
-    title:"",
-    description:"",
-    aSrc:"",
-    github:"",
-    imageSrc:""
+
+    portfolio
   };
 
   // When the component mounts, load the project collection
@@ -47,14 +45,19 @@ class Project extends Component {
         </header>
         <Nav className="sideNav" />
         <Container className="main-container">
-          <section className="main-section">
+          <section className="Portfolio-main-section">
+          {this.state.portfolio.map(portfolio=>(
             <Card
-            //   title={project.title}
-            //   description={project.description}
-            //   aSrc={project.aSrc}
-            //   github={project.github}
-            //   imageSrc={project.imageSrc}
+              id={portfolio.id}
+              key={portfolio.id}
+              title={portfolio.title}
+              description={portfolio.description}
+              aSrc={portfolio.aSrc}
+              github={portfolio.github}
+              imageSrc={portfolio.imageSrc}
+              
             />
+          ))}
           </section>
           <section className="sidebar">
             <div id="connect">

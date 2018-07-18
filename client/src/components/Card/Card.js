@@ -1,25 +1,27 @@
 import React from "react";
-import CardBtn from "../CardBtn";
 import "./Card.css";
 
 const Card = props => (
-  <div
-    className="card"
-    style={{
-      backgroundImage: props.image ? `url(${props.image})` : "none"
-    }}
-  >
-    {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
-    <CardBtn
-      style={{ opacity: props.image ? 1 : 0 }}
-      onClick={props.handleBtnClick}
-      data-value="pass"
-    />
-    <CardBtn
-      style={{ opacity: props.image ? 1 : 0 }}
-      onClick={props.handleBtnClick}
-      data-value="pick"
-    />
+  <div className="card">
+    <div className="img-container">
+      <img alt={props.title} src={props.imageSrc} />
+    </div>
+    <div className="content">
+      <ul>
+        <li className="cardTitle">
+          <strong>Title:</strong> {props.title}
+        </li>
+        <li>
+          <strong>Technology:</strong> {props.description}
+        </li>
+        <li>
+          <strong>Overview:</strong> {props.synopsis}
+        </li>
+        <li>
+          <strong>Link:</strong> <a href={props.aSrc}>Click here to visit site</a>
+        </li>
+      </ul>
+    </div>
   </div>
 );
 

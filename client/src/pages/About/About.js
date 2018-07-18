@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import "./About.css";
 import Nav from "../../components/Nav/Nav";
 import { Container } from "../../components/Grid/Container";
-import Git from "../../images/github-128.png";
-import Stack from "../../images/overflow.png";
-import LinkedIn from "../../images/linkedin.png";
-import ProfilePic from "../../images/profilepic2.jpeg";
+import Git from "../../components/images/github-128.png";
+import Stack from "../../components/images/overflow.png";
+import LinkedIn from "../../components/images/linkedin.png";
+import ProfilePic from "../../components/images/profilepic2.jpeg";
 
 class About extends Component {
   render() {
