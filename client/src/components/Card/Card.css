@@ -21,6 +21,7 @@
   width: 650px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
+  line-height: 22px;
 }
 
 .card > .img-container {

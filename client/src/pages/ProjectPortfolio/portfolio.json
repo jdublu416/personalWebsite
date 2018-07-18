@@ -13,7 +13,7 @@
     "title":"New York Times Search",
     "description": "React, MongoDB, Nodejs, Express",
     "aSrc":"https://classherokutest.herokuapp.com/",
-    "synopsis": "",
+    "synopsis": "A search application to retreive and save articles for future reading",
     "imageSrc":"./images/banner-nyt-building.jpg",
     "github": "https://github.com/jdublu416/hubby"
 },
@@ -53,11 +53,11 @@
 },
 {
     "id":"8",
-    "title":"Date Night",
-    "description": "JavaScript/jQuery, Bootstrap, HTML/CSS grid template areas",
-    "aSrc":"https://jdublu416.github.io/Date-Night_group_project/",
-    "synopsis": "A one stop shop for planning a date with different choices for price, activity level, and time of day",
-    "imageSrc":"./images/Dating-1.jpg"
+    "title":"CrystalCollector",
+    "description": "JavaScript/jQuery, Bootstrap, HTML/CSS",
+    "aSrc":"https://jdublu416.github.io/week-4-game/",
+    "synopsis": "A guessing game that tests one's math skills",
+    "imageSrc":"./images/crystalGame.jpg"
 
 }
 
