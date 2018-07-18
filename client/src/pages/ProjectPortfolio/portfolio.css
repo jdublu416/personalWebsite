@@ -48,6 +48,7 @@
     line-height: 30px;
     padding: 30px;
     margin-top:50px;
+    margin-left: 25px;
     background: #f2f2f2;
     border: 1px solid lightgray;
     border-radius:5px;
@@ -83,7 +84,7 @@
   .sidebar {
     float: right;
     width: 100%;
-    max-width: 270px;
+    max-width: 300px;
     padding: 30px;
     margin-bottom: 20px;
     background: #f2f2f2;

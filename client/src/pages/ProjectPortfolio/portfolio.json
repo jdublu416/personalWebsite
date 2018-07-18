@@ -4,8 +4,8 @@
     "title":"hubby.",
     "description": "React Application with MongoDB/Express/Node",
     "aSrc":"https://hubbydoo.herokuapp.com/",
-    "synopsis": "",
-    "imageSrc":"./images/triviagame.jpg",
+    "synopsis": "The intended application of this project is to provide a clean, easy-to-use interface that can display information from multiple sources",
+    "imageSrc":"./images/phone.jpeg",
     "github": "https://github.com/jdublu416/hubby"
 },
 {
@@ -22,41 +22,44 @@
     "title":"CLicky Game",
     "description": "React app",
     "aSrc":"https://jdublu416.github.io/clicky-game/",
-    "synopsis": "",
+    "synopsis": "A simple game where the user keeps clicking until the same character gets clicked twice",
     "imageSrc":"./images/warnerbrothers.jpeg",
     "github": "https://github.com/jdublu416/hubby"
 },
 {
-    "id":"4",
-    "title":"MongoScraper",
-    "description": "",
-    "aSrc":"",
-    "synopsis": "",
-    "imageSrc":""
-},
-{
     "id":"5",
-    "title":"",
-    "description": "",
-    "aSrc":"",
-    "synopsis": "",
-    "imageSrc":""
+    "title":"Friend Finder",
+    "description": "node.js with handlebars",
+    "aSrc":"https://eatburgerjdub.herokuapp.com/",
+    "synopsis": "This application has user complete a survey and then will match results against other users to find a friend",
+    "imageSrc":"./images/friendfinder.jpg"
 },
 {
     "id":"6",
-    "title":"",
-    "description": "",
-    "aSrc":"",
-    "synopsis": "",
-    "imageSrc":""
+    "title":"Too Cute: Giphy API",
+    "description": "JQuery with AJAX calls to GIPHY API",
+    "aSrc":"https://jdublu416.github.io/AJAX-Giphy-API",
+    "synopsis": "A basic application to search online GIF's by category",
+    "imageSrc":"./images/babypig.jpg"
 },
 {
     "id":"7",
-    "title":"",
-    "description": "",
-    "aSrc":"",
-    "synopsis": "",
-    "imageSrc":""
+    "title":"Date Night",
+    "description": "JavaScript/jQuery, Bootstrap, HTML/CSS grid template areas",
+    "aSrc":"https://jdublu416.github.io/Date-Night_group_project/",
+    "synopsis": "A one stop shop for planning a date with different choices for price, activity level, and time of day",
+    "imageSrc":"./images/Dating-1.jpg"
+
+},
+{
+    "id":"8",
+    "title":"Date Night",
+    "description": "JavaScript/jQuery, Bootstrap, HTML/CSS grid template areas",
+    "aSrc":"https://jdublu416.github.io/Date-Night_group_project/",
+    "synopsis": "A one stop shop for planning a date with different choices for price, activity level, and time of day",
+    "imageSrc":"./images/Dating-1.jpg"
+
 }
+
 
 ]
