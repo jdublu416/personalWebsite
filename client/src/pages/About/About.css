@@ -42,7 +42,7 @@
   }
   
   body{
-    background-image: url("../../greyfloral.png");
+    background-image: url("../../gil-paul-hottenroth-hjSulrRS5gE-unsplash.jpg") no-repeat fixed center;
   }
   .main-section {
     float: left;
@@ -115,12 +115,11 @@
     padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #fff;
-    color: #ccc;
+    color: rgb(255, 255, 255);
     text-align: center;
     background: #666;
-    border-top: 8px solid #f9bc90;
-    background-color:#664855;
+    border-top: 8px solid #3b3b3b;
+    background-color:#161515;
     position: fixed bottom;
     height:150px;
     margin-bottom:-125px;
