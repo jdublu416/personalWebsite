@@ -39,7 +39,7 @@
   }
   
   body{
-    background-image: url("../../gil-paul-hottenroth-hjSulrRS5gE-unsplash.jpg");
+    background-image: url("../../gil-paul-hottenroth-hjSulrRS5gE-unsplash.jpg") no-repeat fixed center;
   }
   .Portfolio-main-section {
     float: left;
